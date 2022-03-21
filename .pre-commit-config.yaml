@@ -5,7 +5,7 @@ repos:
       - id: check-useless-excludes
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
+    rev: v4.1.0
     hooks:
       - id: check-ast
       - id: check-case-conflict
@@ -42,12 +42,12 @@ repos:
       - id: format-setup-cfg
 
   - repo: https://github.com/asottile/blacken-docs
-    rev: v1.10.0
+    rev: v1.12.1
     hooks:
       - id: blacken-docs
 
   - repo: https://github.com/ComPWA/mirrors-cspell
-    rev: v5.6.6
+    rev: v5.10.1
     hooks:
       - id: cspell
 
@@ -61,7 +61,7 @@ repos:
           - --wrap-summaries=79
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: 2.3.5
+    rev: 2.4.0
     hooks:
       - id: editorconfig-checker
         exclude: >
@@ -70,12 +70,12 @@ repos:
           )$
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.28.1
+    rev: v0.31.1
     hooks:
       - id: markdownlint
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.0.0
+    rev: 1.3.1
     hooks:
       - id: nbqa-black
       - id: nbqa-flake8
@@ -87,12 +87,12 @@ repos:
       - id: nbstripout
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v2.3.2
+    rev: v2.6.0
     hooks:
       - id: prettier
 
   - repo: https://github.com/ComPWA/mirrors-pyright
-    rev: v1.1.157
+    rev: v1.1.231
     hooks:
       - id: pyright
 
